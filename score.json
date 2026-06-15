@@ -1,0 +1,21 @@
+{
+  "team": "2A202600946-NguyenDucTam",
+  "phase": "public",
+  "headline": 95.05,
+  "sub": {
+    "correct": 0.765,
+    "quality": 0.8488,
+    "error": 1.0,
+    "latency": 0.0,
+    "cost": 0.8014,
+    "drift": 0.8439,
+    "prompt": 0.8499
+  },
+  "diag_f1": 0.824,
+  "n": 120,
+  "n_correct": 87,
+  "judge_mode": "offline",
+  "weights_hash": "e81a8ed58d93",
+  "key_hash": "9a800fa6968d",
+  "sig": "82d1afa0cd527f6dc67244de7640a1ab98840419bb21b08cb9b5314cacf93bf5"
+}

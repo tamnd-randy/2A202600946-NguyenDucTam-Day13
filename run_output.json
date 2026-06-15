@@ -1,0 +1,1124 @@
+{
+  "phase": "public",
+  "n": 120,
+  "users": null,
+  "turns": null,
+  "config_used": {
+    "provider": "openai",
+    "model": "openai/gpt-oss-120b:free",
+    "model_price_tier": "economy",
+    "max_steps": 6,
+    "loop_guard": true,
+    "temperature": 0.1,
+    "context_size": 2,
+    "verbose_system": false,
+    "retry": {
+      "enabled": true,
+      "max_attempts": 3,
+      "backoff_ms": 100
+    },
+    "cache": {
+      "enabled": true
+    },
+    "normalize_unicode": true,
+    "redact_pii": true,
+    "session_drift_rate": 0.0,
+    "context_reset_every": 1,
+    "tool_error_rate": 0.18,
+    "catalog_override": {},
+    "planner": false,
+    "verify": false,
+    "self_consistency": 1,
+    "tool_budget": 3,
+    "prompt_chars": 1119,
+    "custom_prompt": true
+  },
+  "results": [
+    {
+      "qid": "pub-001",
+      "question": "Mua 4 AirPods dung ma EXPIRED giao den Da Nang tinh tong tien giup minh.",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-001",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.107783Z"
+    },
+    {
+      "qid": "pub-002",
+      "question": "Mua 5 AirPods voi coupon SALE15 - tong cong bao nhieu VND?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-002",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.109828Z"
+    },
+    {
+      "qid": "pub-003",
+      "question": "Mua 3 MacBook voi coupon VIP20, ship Hai Phong - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 84047000 VND",
+      "status": "ok",
+      "session": "pub-003",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.458658Z"
+    },
+    {
+      "qid": "pub-004",
+      "question": "Mua 5 iPad giao Ha Noi tinh tong tien giup minh.",
+      "answer": "San pham iPad co san voi gia 18,000,000 VND/chiếc.  \nSo luong: 5 chiếc  \nTong gia truoc giam: 18,000,000 × 5 = 90,000,000 VND  \nPhi van chuyen (trong Ha Noi, trong 2.25 kg): 36,250 VND  \n\nTong cong: 90,036,250 VND.",
+      "status": "ok",
+      "session": "pub-004",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.529604Z"
+    },
+    {
+      "qid": "pub-005",
+      "question": "Mua 5 iPad, ship Ha Noi tinh tong tien giup minh.",
+      "answer": "Tong cong: 90036250 VND",
+      "status": "ok",
+      "session": "pub-005",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.621508Z"
+    },
+    {
+      "qid": "pub-006",
+      "question": "Mua 5 iPad ap dung ma WINNER giao den Ha Noi tinh tong tien giup minh.",
+      "answer": "Tong cong: 81036250 VND",
+      "status": "ok",
+      "session": "pub-006",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.664558Z"
+    },
+    {
+      "qid": "pub-007",
+      "question": "Mua 4 iPhone giao Hai Phong tinh tong tien giup minh.",
+      "answer": "Tong cong: 88033000 VND",
+      "status": "ok",
+      "session": "pub-007",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.831504Z"
+    },
+    {
+      "qid": "pub-008",
+      "question": "Mua 4 MacBook ap dung ma EXPIRED giao den Da Nang - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 140062000 VND",
+      "status": "ok",
+      "session": "pub-008",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.866777Z"
+    },
+    {
+      "qid": "pub-009",
+      "question": "Mua 3 iPad, ship Ha Noi - tong cong bao nhieu VND?",
+      "answer": "San pham iPad co san voi gia 18,000,000 VND/chiec.  \n- So luong: 3  \n- Subtotal: 18,000,000 × 3 = 54,000,000 VND  \n- Khong co ma giam gia.  \n- Phi van chuyen den Ha Noi (trong 1.35 kg): 31,750 VND  \n\nTong cong: 54,031,750 VND.",
+      "status": "ok",
+      "session": "pub-009",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.893316Z"
+    },
+    {
+      "qid": "pub-010",
+      "question": "Mua 1 MacBook voi coupon SALE15, ship Ha Noi - tong cong bao nhieu VND? goi minh qua sdt 0987654321",
+      "answer": "Tong cong: 29,783,000 VND",
+      "status": "ok",
+      "session": "pub-010",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.006772Z"
+    },
+    {
+      "qid": "pub-011",
+      "question": "Mua 4 iPhone dung ma SALE15, ship Can Tho - tong cong bao nhieu VND?",
+      "answer": "San pham iPhone co san, ma giam gia SALE15 hop le, nhung dia chi Can Tho khong duoc phuc vu. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-011",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.171915Z"
+    },
+    {
+      "qid": "pub-012",
+      "question": "Mua 2 iPad ap dung ma EXPIRED, ship Hai Phong - tong cong bao nhieu VND?",
+      "answer": "San pham iPad co san voi gia 18.000.000 VND/chiếc. Ma EXPIRED khong hop le, khong co giam gia. Phi van chuyen den Hai Phong la 28.000 VND.  \n\n- So luong: 2  \n- Don gia: 18.000.000 VND  \n- Subtotal = 2 × 18.000.000 = 36.000.000 VND  \n- Giam gia: 0% → 36.000.000 VND  \n- Tong cong = 36.000.000 + 28.000 = 36.028.000 VND  \n\nTong cong: 36028000 VND",
+      "status": "ok",
+      "session": "pub-012",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.210231Z"
+    },
+    {
+      "qid": "pub-013",
+      "question": "Mua 2 iPhone giao den TP HCM tinh tong tien giup minh.",
+      "answer": "San pham iPhone co san voi gia 22,000,000 VND/chiếc.  \nSo luong: 2  \nSubtotal = 22,000,000 × 2 = 44,000,000 VND  \nPhi van chuyen den TP HCM = 25,000 VND  \n\nTong cong: 44,025,000 VND",
+      "status": "ok",
+      "session": "pub-013",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.371369Z"
+    },
+    {
+      "qid": "pub-014",
+      "question": "Mua 5 iPad, ship Ha Noi tinh tong tien giup minh. lien he email quan.le@icloud.com",
+      "answer": "Tong cong: 90036250 VND",
+      "status": "ok",
+      "session": "pub-014",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.459039Z"
+    },
+    {
+      "qid": "pub-015",
+      "question": "Shop con iPad khong va gia bao nhieu VND? goi minh qua sdt 0901234567",
+      "answer": "Tong cong: 18000000 VND",
+      "status": "ok",
+      "session": "pub-015",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.093365Z"
+    },
+    {
+      "qid": "pub-016",
+      "question": "Mua 3 iPhone giao den Da Nang, tong thanh toan bao nhieu? lien he email linh.pham@outlook.com",
+      "answer": "San pham iPhone co san voi gia 22,000,000 VND/chiếc.  \nSo luong: 3  \nSubtotal = 22,000,000 × 3 = 66,000,000 VND  \nPhi van chuyen den Da Nang = 37,500 VND  \n\nTong cong: 66,037,500 VND",
+      "status": "ok",
+      "session": "pub-016",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.112512Z"
+    },
+    {
+      "qid": "pub-017",
+      "question": "Mua 1 iPhone voi coupon SALE15 giao Da Nang, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 18735000 VND",
+      "status": "ok",
+      "session": "pub-017",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.881759Z"
+    },
+    {
+      "qid": "pub-018",
+      "question": "Mua 1 MacBook dung ma WINNER giao Vung Tau - tong cong bao nhieu VND?",
+      "answer": "San pham MacBook co san voi gia 35,000,000 VND/chiec. Ma WINNER giam 10%. Dich vu giao hang khong duoc phuc vu tai Vung Tau. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-018",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.988005Z"
+    },
+    {
+      "qid": "pub-019",
+      "question": "Mua 1 AirPods ap dung ma WINNER giao Ha Noi, tong thanh toan bao nhieu?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-019",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.128215Z"
+    },
+    {
+      "qid": "pub-020",
+      "question": "Mua 5 iPhone ap dung ma WINNER, ship hà nội, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 99037500 VND",
+      "status": "ok",
+      "session": "pub-020",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.160283Z"
+    },
+    {
+      "qid": "pub-021",
+      "question": "Mua 1 iPad dung ma WINNER giao den đà nẵng, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 16235000 VND",
+      "status": "ok",
+      "session": "pub-021",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.414140Z"
+    },
+    {
+      "qid": "pub-022",
+      "question": "Mua 2 AirPods ap dung ma WINNER, ship Ha Noi - tong cong bao nhieu VND?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-022",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.456277Z"
+    },
+    {
+      "qid": "pub-023",
+      "question": "Mua 5 iPhone voi coupon WINNER giao den TP HCM - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 99032500 VND",
+      "status": "ok",
+      "session": "pub-023",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.539853Z"
+    },
+    {
+      "qid": "pub-024",
+      "question": "Mua 2 MacBook ap dung ma EXPIRED giao den Ha Noi - tong cong bao nhieu VND? goi minh qua sdt 0987654321",
+      "answer": "Tong cong: 70041000 VND",
+      "status": "ok",
+      "session": "pub-024",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.544614Z"
+    },
+    {
+      "qid": "pub-025",
+      "question": "Shop con MacBook khong va gia bao nhieu VND? goi minh qua sdt 0901234567",
+      "answer": "Tong cong: 35000000 VND",
+      "status": "ok",
+      "session": "pub-025",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.627571Z"
+    },
+    {
+      "qid": "pub-026",
+      "question": "Mua 3 iPhone voi coupon SALE15, ship Ha Noi, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 56132500 VND",
+      "status": "ok",
+      "session": "pub-026",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:04.312766Z"
+    },
+    {
+      "qid": "pub-027",
+      "question": "Shop con iPhone khong va gia bao nhieu VND?",
+      "answer": "Sản phẩm iPhone hiện có trong kho (số lượng còn lại: 12 chiếc) với giá 22,000,000 VND mỗi chiếc.",
+      "status": "ok",
+      "session": "pub-027",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:05.083502Z"
+    },
+    {
+      "qid": "pub-028",
+      "question": "Mua 5 iPhone ap dung ma SALE15 giao Hai Phong tinh tong tien giup minh.",
+      "answer": "Tong cong: 94,355,000 VND",
+      "status": "ok",
+      "session": "pub-028",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:05.356432Z"
+    },
+    {
+      "qid": "pub-029",
+      "question": "Mua 5 MacBook dung ma WINNER giao den hà nội, tong thanh toan bao nhieu? lien he email an.nguyen@gmail.com",
+      "answer": "San pham MacBook khong du so luong trong kho de thuc hien don hang. Khong the tinh tong cong.",
+      "status": "ok",
+      "session": "pub-029",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:05.357125Z"
+    },
+    {
+      "qid": "pub-030",
+      "question": "Shop con iPad khong va gia bao nhieu VND?",
+      "answer": "San pham iPad co san trong kho (so luong: 7). Gia: 18,000,000 VND/moi.",
+      "status": "ok",
+      "session": "pub-030",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:05.920603Z"
+    },
+    {
+      "qid": "pub-031",
+      "question": "Mua 3 iPad voi coupon SALE15 giao den Hai Phong - tong cong bao nhieu VND? goi minh qua sdt 0912345678",
+      "answer": "Tong cong: 46,332,250 VND",
+      "status": "ok",
+      "session": "pub-031",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:06.329831Z"
+    },
+    {
+      "qid": "pub-032",
+      "question": "Shop con iPhone khong va gia bao nhieu VND?",
+      "answer": "Sản phẩm iPhone hiện có trong kho (số lượng còn lại: 12 chiếc) với giá 22.000.000 VND mỗi chiếc.",
+      "status": "ok",
+      "session": "pub-032",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:06.624493Z"
+    },
+    {
+      "qid": "pub-033",
+      "question": "Mua 1 MacBook dung ma SALE15, ship Hai Phong tinh tong tien giup minh.",
+      "answer": "Tong cong: 29,781,000 VND",
+      "status": "ok",
+      "session": "pub-033",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:06.663908Z"
+    },
+    {
+      "qid": "pub-034",
+      "question": "Mua 1 iPad giao TP HCM tinh tong tien giup minh.",
+      "answer": "San pham iPad co san voi gia 18,000,000 VND. Phi van chuyen den TP HCM la 25,000 VND. Tong cong: 18,025,000 VND.",
+      "status": "ok",
+      "session": "pub-034",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:06.684870Z"
+    },
+    {
+      "qid": "pub-035",
+      "question": "Mua 3 iPad dung ma EXPIRED giao TP HCM - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 54026750 VND",
+      "status": "ok",
+      "session": "pub-035",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:06.791939Z"
+    },
+    {
+      "qid": "pub-036",
+      "question": "Mua 2 MacBook voi coupon EXPIRED giao Da Nang, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 70038000 VND",
+      "status": "ok",
+      "session": "pub-036",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:07.225438Z"
+    },
+    {
+      "qid": "pub-037",
+      "question": "Mua 5 iPad ap dung ma VIP20, ship Ha Noi, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 72036250 VND",
+      "status": "ok",
+      "session": "pub-037",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:07.398029Z"
+    },
+    {
+      "qid": "pub-038",
+      "question": "Mua 3 iPad dung ma WINNER, ship Da Nang tinh tong tien giup minh. lien he email an.nguyen@gmail.com",
+      "answer": "Tong cong: 48636750 VND",
+      "status": "ok",
+      "session": "pub-038",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:07.664832Z"
+    },
+    {
+      "qid": "pub-039",
+      "question": "Mua 1 iPad voi coupon VIP20 giao đà nẵng, tong thanh toan bao nhieu?",
+      "answer": "San pham iPad co san voi gia 18,000,000 VND. Ma VIP20 giam 20%. Phi van chuyen den Da Nang la 35,000 VND.  \n- Subtotal: 18,000,000 × 1 = 18,000,000 VND  \n- Discounted: 18,000,000 × (100‑20) ÷ 100 = 14,400,000 VND  \n- Total: 14,400,000 + 35,000 = 14,435,000 VND  \n\nTong cong: 14435000 VND",
+      "status": "ok",
+      "session": "pub-039",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:07.717787Z"
+    },
+    {
+      "qid": "pub-040",
+      "question": "Mua 5 oppo ap dung ma SALE15, ship Da Nang - tong cong bao nhieu VND?",
+      "answer": "San pham oppo khong tim thay trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-040",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:07.866085Z"
+    },
+    {
+      "qid": "pub-041",
+      "question": "Mua 5 MacBook ap dung ma VIP20 giao đà nẵng - tong cong bao nhieu VND?",
+      "answer": "San pham MacBook khong du so luong trong kho de thuc hien don hang. Khong the tinh tong cong.",
+      "status": "ok",
+      "session": "pub-041",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:08.113237Z"
+    },
+    {
+      "qid": "pub-042",
+      "question": "Mua 5 iPhone dung ma VIP20, ship TP HCM tinh tong tien giup minh.",
+      "answer": "Tong cong: 88032500 VND",
+      "status": "ok",
+      "session": "pub-042",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:08.461642Z"
+    },
+    {
+      "qid": "pub-043",
+      "question": "Mua 2 iPad voi coupon SALE15 giao TP HCM tinh tong tien giup minh.",
+      "answer": "Tong cong: 30625000 VND",
+      "status": "ok",
+      "session": "pub-043",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:08.790784Z"
+    },
+    {
+      "qid": "pub-044",
+      "question": "Shop con iPad khong va gia bao nhieu VND?",
+      "answer": "San pham iPad co san trong kho (so luong: 7). Gia: 18,000,000 VND/moi.",
+      "status": "ok",
+      "session": "pub-044",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:08.843657Z"
+    },
+    {
+      "qid": "pub-045",
+      "question": "Mua 1 MacBook dung ma WINNER giao den Vung Tau tinh tong tien giup minh.",
+      "answer": "San pham MacBook co san voi gia 35,000,000 VND/chiec. Ma WINNER giam 10%. Tuy nhien, Vung Tau khong duoc phuc vu cho van chuyen. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-045",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:09.256670Z"
+    },
+    {
+      "qid": "pub-046",
+      "question": "Mua 5 iPad ap dung ma SALE15 giao hà nội - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 77,862,500 VND",
+      "status": "ok",
+      "session": "pub-046",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:09.305436Z"
+    },
+    {
+      "qid": "pub-047",
+      "question": "Mua 2 MacBook giao den Can Tho - tong cong bao nhieu VND?",
+      "answer": "San pham MacBook hien tai khong duoc giao den Can Tho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-047",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:09.629232Z"
+    },
+    {
+      "qid": "pub-048",
+      "question": "Mua 3 sony dung ma VIP20, ship Ha Noi tinh tong tien giup minh. goi minh qua sdt 0938222111",
+      "answer": "San pham sony khong tim thay trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-048",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:09.791207Z"
+    },
+    {
+      "qid": "pub-049",
+      "question": "Mua 5 MacBook voi coupon WINNER, ship TP HCM, tong thanh toan bao nhieu?",
+      "answer": "San pham MacBook khong du so luong trong kho de thuc hien don hang. Khong the tinh tong cong.",
+      "status": "ok",
+      "session": "pub-049",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:09.832323Z"
+    },
+    {
+      "qid": "pub-050",
+      "question": "Mua 1 MacBook giao đà nẵng, tong thanh toan bao nhieu?",
+      "answer": "San pham MacBook co san voi gia 35,000,000 VND/chiếc.  \n- Subtotal: 35,000,000 VND  \n- Phi van chuyen den Da Nang: 38,000 VND  \n\nTong cong: 35,038,000 VND",
+      "status": "ok",
+      "session": "pub-050",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:10.009965Z"
+    },
+    {
+      "qid": "pub-051",
+      "question": "Mua 4 iPad ap dung ma SALE15 giao hải phòng tinh tong tien giup minh.",
+      "answer": "Tong cong: 61,232,000 VND",
+      "status": "ok",
+      "session": "pub-051",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:10.156027Z"
+    },
+    {
+      "qid": "pub-052",
+      "question": "Mua 5 oppo voi coupon VIP20 giao den TP HCM tinh tong tien giup minh. lien he email an.nguyen@gmail.com",
+      "answer": "San pham oppo khong tim thay trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-052",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:10.793224Z"
+    },
+    {
+      "qid": "pub-053",
+      "question": "Mua 2 iPhone voi coupon WINNER, ship đà nẵng, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 39635000 VND",
+      "status": "ok",
+      "session": "pub-053",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:10.801709Z"
+    },
+    {
+      "qid": "pub-054",
+      "question": "Mua 5 iPhone dung ma WINNER, ship hải phòng tinh tong tien giup minh.",
+      "answer": "Tong cong: 110,000,000 VND\n\nCalculation steps:  \n- Quantity: 5  \n- Unit price: 22,000,000 VND each  \n- Subtotal = 22,000,000 × 5 = 110,000,000 VND  \n- Discount (WINNER 10%): 110,000,000 × (100‑10) ÷ 100 = 99,000,000 VND  \n- Shipping cost to Hai Phong: 35,500 VND  \n- Total = 99,000,000 + 35,500 = 99,035,500 VND  \n\n**Tong cong: 99,035,500 VND**",
+      "status": "ok",
+      "session": "pub-054",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:10.837568Z"
+    },
+    {
+      "qid": "pub-055",
+      "question": "Mua 1 sony giao Ha Noi tinh tong tien giup minh.",
+      "answer": "San pham sony khong tim thay trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-055",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:11.655949Z"
+    },
+    {
+      "qid": "pub-056",
+      "question": "Shop con MacBook khong va gia bao nhieu VND?",
+      "answer": "Sản phẩm MacBook hiện có trong kho với giá 35,000,000 VND mỗi chiếc.",
+      "status": "ok",
+      "session": "pub-056",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.012951Z"
+    },
+    {
+      "qid": "pub-057",
+      "question": "Mua 4 iPad giao den Vung Tau, tong thanh toan bao nhieu?",
+      "answer": "San pham iPad hien tai khong duoc giao den Vung Tau. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-057",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.045519Z"
+    },
+    {
+      "qid": "pub-058",
+      "question": "Mua 2 MacBook ap dung ma WINNER, ship đà nẵng, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 63046000 VND",
+      "status": "ok",
+      "session": "pub-058",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.097562Z"
+    },
+    {
+      "qid": "pub-059",
+      "question": "Mua 4 MacBook voi coupon WINNER, ship Da Nang - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 126620000 VND",
+      "status": "ok",
+      "session": "pub-059",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.252494Z"
+    },
+    {
+      "qid": "pub-060",
+      "question": "Mua 3 iPad voi coupon EXPIRED giao den Ha Noi - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 54031750 VND",
+      "status": "ok",
+      "session": "pub-060",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.286647Z"
+    },
+    {
+      "qid": "pub-061",
+      "question": "Mua 4 iPhone dung ma VIP20, ship TP HCM, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 70430000 VND",
+      "status": "ok",
+      "session": "pub-061",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.364888Z"
+    },
+    {
+      "qid": "pub-062",
+      "question": "Mua 4 MacBook dung ma WINNER giao hà nội tinh tong tien giup minh.",
+      "answer": "Tong cong: 126057000 VND",
+      "status": "ok",
+      "session": "pub-062",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.375004Z"
+    },
+    {
+      "qid": "pub-063",
+      "question": "Mua 2 iPhone voi coupon WINNER giao đà nẵng tinh tong tien giup minh. goi minh qua sdt 0912345678",
+      "answer": "Tong cong: 39635000 VND",
+      "status": "ok",
+      "session": "pub-063",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.623739Z"
+    },
+    {
+      "qid": "pub-064",
+      "question": "Mua 5 MacBook voi coupon SALE15 giao Da Nang - tong cong bao nhieu VND? lien he email linh.pham@outlook.com",
+      "answer": "San pham MacBook khong du so luong trong kho de thuc hien don hang. Khong the tinh tong cong.",
+      "status": "ok",
+      "session": "pub-064",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:12.640103Z"
+    },
+    {
+      "qid": "pub-065",
+      "question": "Shop con iPhone khong va gia bao nhieu VND? lien he email quan.le@icloud.com",
+      "answer": "San pham iPhone co san voi gia 22000000 VND. Tong cong: 22000000 VND.",
+      "status": "ok",
+      "session": "pub-065",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:13.684532Z"
+    },
+    {
+      "qid": "pub-066",
+      "question": "Mua 4 iPhone voi coupon EXPIRED, ship Da Nang - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 88040000 VND",
+      "status": "ok",
+      "session": "pub-066",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:14.191107Z"
+    },
+    {
+      "qid": "pub-067",
+      "question": "Mua 1 iPhone giao Da Nang tinh tong tien giup minh. lien he email minh.tran@yahoo.com",
+      "answer": "San pham iPhone co san voi gia 22,000,000 VND. Phi van chuyen den Da Nang la 35,000 VND. Tong cong: 22,035,000 VND.",
+      "status": "ok",
+      "session": "pub-067",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:14.502124Z"
+    },
+    {
+      "qid": "pub-068",
+      "question": "Mua 5 MacBook ap dung ma WINNER giao den Ha Noi, tong thanh toan bao nhieu?",
+      "answer": "San pham MacBook khong du so luong trong kho de thuc hien don hang. Khong the tinh tong thanh toan.",
+      "status": "ok",
+      "session": "pub-068",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:14.798163Z"
+    },
+    {
+      "qid": "pub-069",
+      "question": "Mua 5 iPhone ap dung ma VIP20 giao den Da Nang - tong cong bao nhieu VND? goi minh qua sdt 0901234567",
+      "answer": "San pham iPhone hiện tại không có thông tin về trọng lượng, do đó không thể tính phí vận chuyển. Vì thiếu dữ liệu cần thiết, không thể đưa ra tổng cộng.",
+      "status": "ok",
+      "session": "pub-069",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:14.889858Z"
+    },
+    {
+      "qid": "pub-070",
+      "question": "Shop con iPhone khong va gia bao nhieu VND?",
+      "answer": "Sản phẩm iPhone hiện có trong kho (số lượng còn lại: 12 chiếc) với giá 22.000.000 VND mỗi chiếc.",
+      "status": "ok",
+      "session": "pub-070",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:15.116937Z"
+    },
+    {
+      "qid": "pub-071",
+      "question": "Mua 2 iPad dung ma VIP20 giao den TP HCM - tong cong bao nhieu VND? goi minh qua sdt 0912345678",
+      "answer": "Tong cong: 28825000 VND",
+      "status": "ok",
+      "session": "pub-071",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:15.403412Z"
+    },
+    {
+      "qid": "pub-072",
+      "question": "Mua 3 MacBook dung ma SALE15 giao TP HCM - tong cong bao nhieu VND? goi minh qua sdt 0901234567",
+      "answer": "Tong cong: 89294000 VND",
+      "status": "ok",
+      "session": "pub-072",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:15.534496Z"
+    },
+    {
+      "qid": "pub-073",
+      "question": "Mua 1 iPhone voi coupon WINNER, ship TP HCM - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 19,950,000 VND",
+      "status": "ok",
+      "session": "pub-073",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:15.547196Z"
+    },
+    {
+      "qid": "pub-074",
+      "question": "Mua 5 iPad dung ma EXPIRED giao Ha Noi - tong cong bao nhieu VND?",
+      "answer": "San pham iPad hiện tại không có thông tin khối lượng, vì vậy không thể tính phí vận chuyển. Không thể thực hiện đơn hàng.",
+      "status": "ok",
+      "session": "pub-074",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:15.743952Z"
+    },
+    {
+      "qid": "pub-075",
+      "question": "Mua 4 iPad dung ma VIP20, ship Ha Noi, tong thanh toan bao nhieu?",
+      "answer": "San pham iPad co san voi gia 18,000,000 VND/chiec. Ma VIP20 giam 20%. Phi van chuyen den Ha Noi la 34,000 VND.  \n- So luong: 4  \n- Don gia: 18,000,000 VND  \n- Subtotal = 18,000,000 × 4 = 72,000,000 VND  \n- Giam gia 20%: 72,000,000 × (100‑20) / 100 = 57,600,000 VND  \n- Tong cong = 57,600,000 + 34,000 = 57,634,000 VND  \n\nTong cong: 57634000 VND",
+      "status": "ok",
+      "session": "pub-075",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:15.822786Z"
+    },
+    {
+      "qid": "pub-076",
+      "question": "Mua 3 AirPods ap dung ma SALE15 giao den Hai Phong, tong thanh toan bao nhieu?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-076",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:16.011153Z"
+    },
+    {
+      "qid": "pub-077",
+      "question": "Mua 4 iPhone voi coupon WINNER, ship Hai Phong, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 79,233,000 VND",
+      "status": "ok",
+      "session": "pub-077",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:16.120384Z"
+    },
+    {
+      "qid": "pub-078",
+      "question": "Mua 5 iPad ap dung ma EXPIRED, ship hà nội, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 90036250 VND",
+      "status": "ok",
+      "session": "pub-078",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:16.729919Z"
+    },
+    {
+      "qid": "pub-079",
+      "question": "Mua 4 iPad dung ma WINNER giao den Hai Phong tinh tong tien giup minh.",
+      "answer": "Tong cong: 64832000 VND",
+      "status": "ok",
+      "session": "pub-079",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:16.774947Z"
+    },
+    {
+      "qid": "pub-080",
+      "question": "Mua 5 iPad dung ma WINNER giao TP HCM tinh tong tien giup minh.",
+      "answer": "Tong cong: 81031250 VND",
+      "status": "ok",
+      "session": "pub-080",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:17.067890Z"
+    },
+    {
+      "qid": "pub-081",
+      "question": "Mua 3 iPhone dung ma VIP20, ship Da Nang - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 52800000 VND",
+      "status": "ok",
+      "session": "pub-081",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:17.307728Z"
+    },
+    {
+      "qid": "pub-082",
+      "question": "Mua 1 sony ap dung ma SALE15 - tong cong bao nhieu VND?",
+      "answer": "San pham sony khong tim thay trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-082",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:17.470368Z"
+    },
+    {
+      "qid": "pub-083",
+      "question": "Mua 1 iPad ap dung ma VIP20 giao Hai Phong tinh tong tien giup minh.",
+      "answer": "San pham iPad co san voi gia 18000000 VND/chiec. Ma VIP20 giam 20%. Phi van chuyen den Hai Phong la 28000 VND.  \n- Subtotal: 18000000 × 1 = 18000000 VND  \n- Discounted: 18000000 × (100‑20) ÷ 100 = 14400000 VND  \n- Total: 14400000 + 28000 = 14428000 VND  \n\nTong cong: 14428000 VND",
+      "status": "ok",
+      "session": "pub-083",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:17.487054Z"
+    },
+    {
+      "qid": "pub-084",
+      "question": "Mua 2 AirPods voi coupon SALE15 giao den TP HCM, tong thanh toan bao nhieu?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-084",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:17.523108Z"
+    },
+    {
+      "qid": "pub-085",
+      "question": "Mua 4 MacBook dung ma EXPIRED giao Ha Noi tinh tong tien giup minh.",
+      "answer": "Tong cong: 140057000 VND",
+      "status": "ok",
+      "session": "pub-085",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.207073Z"
+    },
+    {
+      "qid": "pub-086",
+      "question": "Mua 4 MacBook giao Hai Phong tinh tong tien giup minh.",
+      "answer": "San pham MacBook co san voi gia 35,000,000 VND/chiếc.  \n- So luong: 4  \n- Tong gia truoc giam: 35,000,000 × 4 = 140,000,000 VND  \n- Phi van chuyen den Hai Phong: 55,000 VND  \n\nTong cong: 140,000,000 + 55,000 = 140,055,000 VND  \n\n**Tong cong: 140055000 VND**",
+      "status": "ok",
+      "session": "pub-086",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.259513Z"
+    },
+    {
+      "qid": "pub-087",
+      "question": "Mua 5 AirPods ap dung ma WINNER - tong cong bao nhieu VND?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-087",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.295229Z"
+    },
+    {
+      "qid": "pub-088",
+      "question": "Mua 3 iPad ap dung ma SALE15 giao den hải phòng, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 45,929,750 VND",
+      "status": "ok",
+      "session": "pub-088",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.363248Z"
+    },
+    {
+      "qid": "pub-089",
+      "question": "Mua 5 nokia, ship Da Nang - tong cong bao nhieu VND?",
+      "answer": "San pham nokia khong tim thay trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-089",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.517306Z"
+    },
+    {
+      "qid": "pub-090",
+      "question": "Mua 5 iPad dung ma WINNER giao den đà lạt - tong cong bao nhieu VND?",
+      "answer": "San pham iPad khong duoc giao den Da Lat. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-090",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.663939Z"
+    },
+    {
+      "qid": "pub-091",
+      "question": "Shop con iPhone khong va gia bao nhieu VND? lien he email an.nguyen@gmail.com",
+      "answer": "San pham iPhone co san voi gia 22000000 VND. Tong cong: 22000000 VND.",
+      "status": "ok",
+      "session": "pub-091",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.664606Z"
+    },
+    {
+      "qid": "pub-092",
+      "question": "Mua 4 iPad giao den Hai Phong - tong cong bao nhieu VND?",
+      "answer": "San pham iPad co san voi gia 18.000.000 VND/chiếc.  \n- So luong: 4  \n- Subtotal: 18.000.000 × 4 = 72.000.000 VND  \n- Phi van chuyen den Hai Phong (trong 1.8 kg): 32.000 VND  \n\nTong cong: 72.032.000 VND.",
+      "status": "ok",
+      "session": "pub-092",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.665244Z"
+    },
+    {
+      "qid": "pub-093",
+      "question": "Mua 3 MacBook voi coupon EXPIRED giao Hai Phong - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 105047000 VND",
+      "status": "ok",
+      "session": "pub-093",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.802306Z"
+    },
+    {
+      "qid": "pub-094",
+      "question": "Mua 4 iPhone dung ma WINNER, ship TP HCM, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 88000000 VND",
+      "status": "ok",
+      "session": "pub-094",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:18.843184Z"
+    },
+    {
+      "qid": "pub-095",
+      "question": "Mua 5 MacBook ap dung ma EXPIRED giao den Ha Noi tinh tong tien giup minh.",
+      "answer": "San pham MacBook khong du so luong trong kho de thuc hien don hang. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-095",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:19.030228Z"
+    },
+    {
+      "qid": "pub-096",
+      "question": "Mua 4 iPad dung ma VIP20 giao hà nội - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 57,634,000 VND",
+      "status": "ok",
+      "session": "pub-096",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:19.350585Z"
+    },
+    {
+      "qid": "pub-097",
+      "question": "Mua 2 MacBook dung ma VIP20, ship đà lạt - tong cong bao nhieu VND?",
+      "answer": "San pham MacBook co san, nhung dich vu giao hang den Da Lat khong duoc ho tro. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-097",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:19.370742Z"
+    },
+    {
+      "qid": "pub-098",
+      "question": "Mua 2 iPad voi coupon SALE15, ship Da Nang - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 30,975,000 VND",
+      "status": "ok",
+      "session": "pub-098",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:19.511449Z"
+    },
+    {
+      "qid": "pub-099",
+      "question": "Mua 4 iPhone voi coupon WINNER, ship Hai Phong - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 88000000 VND",
+      "status": "ok",
+      "session": "pub-099",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:19.615671Z"
+    },
+    {
+      "qid": "pub-100",
+      "question": "Shop con iPhone khong va gia bao nhieu VND? goi minh qua sdt 0912345678",
+      "answer": "San pham iPhone co san voi gia 22,000,000 VND/chiec. Tong cong: 22,000,000 VND.",
+      "status": "ok",
+      "session": "pub-100",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:19.928232Z"
+    },
+    {
+      "qid": "pub-101",
+      "question": "Mua 1 iPad dung ma VIP20 giao Hai Phong, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 14428000 VND",
+      "status": "ok",
+      "session": "pub-101",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:20.547533Z"
+    },
+    {
+      "qid": "pub-102",
+      "question": "Mua 3 iPad voi coupon SALE15 giao den hải phòng - tong cong bao nhieu VND? lien he email minh.tran@yahoo.com",
+      "answer": "Tong cong: 46,332,250 VND",
+      "status": "ok",
+      "session": "pub-102",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:20.655349Z"
+    },
+    {
+      "qid": "pub-103",
+      "question": "Mua 5 MacBook dung ma SALE15, ship Vung Tau tinh tong tien giup minh.",
+      "answer": "San pham MacBook khong du so luong trong kho de thuc hien don hang. Khong the tinh tong tien.",
+      "status": "ok",
+      "session": "pub-103",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:20.711099Z"
+    },
+    {
+      "qid": "pub-104",
+      "question": "Mua 2 AirPods giao TP HCM, tong thanh toan bao nhieu?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-104",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.132623Z"
+    },
+    {
+      "qid": "pub-105",
+      "question": "Mua 3 AirPods ap dung ma EXPIRED - tong cong bao nhieu VND?",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-105",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.138154Z"
+    },
+    {
+      "qid": "pub-106",
+      "question": "Mua 4 AirPods dung ma WINNER giao Hai Phong tinh tong tien giup minh.",
+      "answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-106",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.218388Z"
+    },
+    {
+      "qid": "pub-107",
+      "question": "Mua 1 MacBook dung ma VIP20 giao Ha Noi tinh tong tien giup minh.",
+      "answer": "Tong cong: 28033000 VND",
+      "status": "ok",
+      "session": "pub-107",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.318819Z"
+    },
+    {
+      "qid": "pub-108",
+      "question": "Mua 4 MacBook ap dung ma SALE15 giao đà lạt tinh tong tien giup minh. lien he email an.nguyen@gmail.com",
+      "answer": "San pham MacBook co san voi gia 35.000.000 VND/chiếc. Ma SALE15 giam 15%. Tuy nhiên, dia chi giao Da Lat khong duoc phuc vu. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-108",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.358018Z"
+    },
+    {
+      "qid": "pub-109",
+      "question": "Mua 3 iPad, ship Hai Phong - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 54029750 VND",
+      "status": "ok",
+      "session": "pub-109",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.585865Z"
+    },
+    {
+      "qid": "pub-110",
+      "question": "Mua 4 xiaomi, ship TP HCM - tong cong bao nhieu VND? lien he email minh.tran@yahoo.com",
+      "answer": "San pham xiaomi khong tim thay trong kho. Khong the thuc hien don hang.",
+      "status": "ok",
+      "session": "pub-110",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.731937Z"
+    },
+    {
+      "qid": "pub-111",
+      "question": "Mua 4 iPad ap dung ma VIP20 giao Da Nang, tong thanh toan bao nhieu?",
+      "answer": "Tong cong: 57,600,000 VND",
+      "status": "ok",
+      "session": "pub-111",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.789191Z"
+    },
+    {
+      "qid": "pub-112",
+      "question": "Mua 3 iPad giao den hà nội - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 54031750 VND",
+      "status": "ok",
+      "session": "pub-112",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:21.895823Z"
+    },
+    {
+      "qid": "pub-113",
+      "question": "Mua 2 iPad voi coupon WINNER giao Ha Noi - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 32430000 VND",
+      "status": "ok",
+      "session": "pub-113",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.131278Z"
+    },
+    {
+      "qid": "pub-114",
+      "question": "Mua 3 iPhone ap dung ma VIP20 giao den TP HCM - tong cong bao nhieu VND?",
+      "answer": "Tong cong: 52827500 VND",
+      "status": "ok",
+      "session": "pub-114",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.209876Z"
+    },
+    {
+      "qid": "pub-115",
+      "question": "Mua 3 iPad ap dung ma EXPIRED giao den Vung Tau, tong thanh toan bao nhieu? lien he email minh.tran@yahoo.com",
+      "answer": "San pham iPad hiện tại không có thông tin về trọng lượng, do đó không thể tính phí vận chuyển. Vì không đủ dữ liệu để xác định tổng cộng, tôi không thể cung cấp kết quả.",
+      "status": "ok",
+      "session": "pub-115",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.223897Z"
+    },
+    {
+      "qid": "pub-116",
+      "question": "Mua 4 oppo giao TP HCM tinh tong tien giup minh.",
+      "answer": "San pham oppo không tồn tại trong kho. Không thể thực hiện đơn hàng.",
+      "status": "ok",
+      "session": "pub-116",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.347321Z"
+    },
+    {
+      "qid": "pub-117",
+      "question": "Mua 4 MacBook dung ma WINNER, ship Hai Phong - tong cong bao nhieu VND?",
+      "answer": "San pham MacBook co san voi gia 35,000,000 VND/chiếc. Ma WINNER giam 10%. Phi van chuyen den Hai Phong la 55,000 VND.  \n- Subtotal = 35,000,000 × 4 = 140,000,000 VND  \n- Discounted = 140,000,000 × (100‑10) ÷ 100 = 126,000,000 VND  \n- Total = 126,000,000 + 55,000 = 126,055,000 VND  \n\nTong cong: 126055000 VND",
+      "status": "ok",
+      "session": "pub-117",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.390720Z"
+    },
+    {
+      "qid": "pub-118",
+      "question": "Shop con iPad khong va gia bao nhieu VND?",
+      "answer": "San pham iPad co san trong kho (so luong: 7). Gia: 18,000,000 VND/moi.",
+      "status": "ok",
+      "session": "pub-118",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.584929Z"
+    },
+    {
+      "qid": "pub-119",
+      "question": "Mua 4 iPhone ap dung ma VIP20 giao den hải phòng tinh tong tien giup minh.",
+      "answer": "Tong cong: 70480000 VND",
+      "status": "ok",
+      "session": "pub-119",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.630030Z"
+    },
+    {
+      "qid": "pub-120",
+      "question": "Mua 3 MacBook dung ma WINNER, ship hải phòng tinh tong tien giup minh.",
+      "answer": "Tong cong: 94531000 VND",
+      "status": "ok",
+      "session": "pub-120",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:22.659041Z"
+    }
+  ],
+  "sealed": {
+    "alg": "HMAC-SHA256",
+    "note": "binary-measured metrics for scoring; build your own observability in wrapper.py",
+    "data": "W3siZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEwOTU1LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA3OSwgInByb21wdF90b2tlbnMiOiAxMTMwLCAidG90YWxfdG9rZW5zIjogMTIwOX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiA4OTYxLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA3NywgInByb21wdF90b2tlbnMiOiAxMTI2LCAidG90YWxfdG9rZW5zIjogMTIwM319LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNTExMiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTk2LCAicHJvbXB0X3Rva2VucyI6IDIzOTEsICJ0b3RhbF90b2tlbnMiOiAyNTg3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE2MjIwLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMiwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIyMywgInByb21wdF90b2tlbnMiOiAxNzg1LCAidG90YWxfdG9rZW5zIjogMjAwOH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNTkxOCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJjYWxjX3NoaXBwaW5nIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDI0MCwgInByb21wdF90b2tlbnMiOiAyMzg1LCAidG90YWxfdG9rZW5zIjogMjYyNX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNzc5NSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjg4LCAicHJvbXB0X3Rva2VucyI6IDIzNzksICJ0b3RhbF90b2tlbnMiOiAyNjY3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEzMzI3LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMiwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE3MiwgInByb21wdF90b2tlbnMiOiAxNzg3LCAidG90YWxfdG9rZW5zIjogMTk1OX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxODY0NiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjQ2LCAicHJvbXB0X3Rva2VucyI6IDIzOTAsICJ0b3RhbF90b2tlbnMiOiAyNjM2fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE0NzUwLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMiwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIyNiwgInByb21wdF90b2tlbnMiOiAxNzk0LCAidG90YWxfdG9rZW5zIjogMjAyMH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNjUzMSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiB0cnVlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyNzYsICJwcm9tcHRfdG9rZW5zIjogMjQ1MCwgInRvdGFsX3Rva2VucyI6IDI3MjZ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTYxMzMsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE4MywgInByb21wdF90b2tlbnMiOiAyMzg0LCAidG90YWxfdG9rZW5zIjogMjU2N319LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAyMzMxMywgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDQsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAzNjcsICJwcm9tcHRfdG9rZW5zIjogMzA0OCwgInRvdGFsX3Rva2VucyI6IDM0MTV9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTQ0ODUsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAyLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjA2LCAicHJvbXB0X3Rva2VucyI6IDE3OTEsICJ0b3RhbF90b2tlbnMiOiAxOTk3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDI2MjE0LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiY2FsY19zaGlwcGluZyIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyNTMsICJwcm9tcHRfdG9rZW5zIjogMjQyOSwgInRvdGFsX3Rva2VucyI6IDI2ODJ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogNzAzMCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiB0cnVlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA5NywgInByb21wdF90b2tlbnMiOiAxMTQ3LCAidG90YWxfdG9rZW5zIjogMTI0NH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNTk0OCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiB0cnVlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMiwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE5OSwgInByb21wdF90b2tlbnMiOiAxODI3LCAidG90YWxfdG9rZW5zIjogMjAyNn19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMzUzMSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjE3LCAicHJvbXB0X3Rva2VucyI6IDIzNzksICJ0b3RhbF90b2tlbnMiOiAyNTk2fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE4OTY4LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxODUsICJwcm9tcHRfdG9rZW5zIjogMjM4NSwgInRvdGFsX3Rva2VucyI6IDI1NzB9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogNjQ0MiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogODAsICJwcm9tcHRfdG9rZW5zIjogMTEzNCwgInRvdGFsX3Rva2VucyI6IDEyMTR9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTY2MzYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIzMCwgInByb21wdF90b2tlbnMiOiAyMzg3LCAidG90YWxfdG9rZW5zIjogMjYxN319LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxODk4NCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjAyLCAicHJvbXB0X3Rva2VucyI6IDIzOTUsICJ0b3RhbF90b2tlbnMiOiAyNTk3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDg2MjMsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDc5LCAicHJvbXB0X3Rva2VucyI6IDExMzYsICJ0b3RhbF90b2tlbnMiOiAxMjE1fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDI2NzQxLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMjMsICJwcm9tcHRfdG9rZW5zIjogMjM4OSwgInRvdGFsX3Rva2VucyI6IDI2MTJ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjI5NjYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjk4LCAicHJvbXB0X3Rva2VucyI6IDI0NTQsICJ0b3RhbF90b2tlbnMiOiAyNzUyfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEwNDQ5LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDg3LCAicHJvbXB0X3Rva2VucyI6IDExNDgsICJ0b3RhbF90b2tlbnMiOiAxMjM1fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDIwOTkwLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyODgsICJwcm9tcHRfdG9rZW5zIjogMjM4MywgInRvdGFsX3Rva2VucyI6IDI2NzF9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTM1MjgsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE0MSwgInByb21wdF90b2tlbnMiOiAxMTE1LCAidG90YWxfdG9rZW5zIjogMTI1Nn19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMzMzNiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTQ2LCAicHJvbXB0X3Rva2VucyI6IDIzODAsICJ0b3RhbF90b2tlbnMiOiAyNTI2fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDY1MjksICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogOTgsICJwcm9tcHRfdG9rZW5zIjogMTE1NiwgInRvdGFsX3Rva2VucyI6IDEyNTR9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogODY4OSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTU4LCAicHJvbXB0X3Rva2VucyI6IDExMTUsICJ0b3RhbF90b2tlbnMiOiAxMjczfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE4NjYxLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIxNCwgInByb21wdF90b2tlbnMiOiAyNDUyLCAidG90YWxfdG9rZW5zIjogMjY2Nn19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMDIyNiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTM5LCAicHJvbXB0X3Rva2VucyI6IDExMTUsICJ0b3RhbF90b2tlbnMiOiAxMjU0fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDIxNTE4LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMzAsICJwcm9tcHRfdG9rZW5zIjogMjM4MywgInRvdGFsX3Rva2VucyI6IDI2MTN9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTQyNzIsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAyLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTM5LCAicHJvbXB0X3Rva2VucyI6IDE3OTAsICJ0b3RhbF90b2tlbnMiOiAxOTI5fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDI0MzY2LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyNDUsICJwcm9tcHRfdG9rZW5zIjogMjM4NSwgInRvdGFsX3Rva2VucyI6IDI2MzB9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjU3MTMsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiA0LCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjQ5LCAicHJvbXB0X3Rva2VucyI6IDMwMzYsICJ0b3RhbF90b2tlbnMiOiAzMjg1fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE3Mzg1LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyNDQsICJwcm9tcHRfdG9rZW5zIjogMjM4NywgInRvdGFsX3Rva2VucyI6IDI2MzF9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMzA0NjAsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMzM3LCAicHJvbXB0X3Rva2VucyI6IDI0MTksICJ0b3RhbF90b2tlbnMiOiAyNzU2fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEzNTYyLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyNTgsICJwcm9tcHRfdG9rZW5zIjogMjM5MSwgInRvdGFsX3Rva2VucyI6IDI2NDl9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogODYzNSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogODIsICJwcm9tcHRfdG9rZW5zIjogMTExMSwgInRvdGFsX3Rva2VucyI6IDExOTN9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogODc2NiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogOTAsICJwcm9tcHRfdG9rZW5zIjogMTE0MCwgInRvdGFsX3Rva2VucyI6IDEyMzB9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTY5MzksICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDI2NywgInByb21wdF90b2tlbnMiOiAyMzgxLCAidG90YWxfdG9rZW5zIjogMjY0OH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNTY5OSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjQ4LCAicHJvbXB0X3Rva2VucyI6IDIzNzcsICJ0b3RhbF90b2tlbnMiOiAyNjI1fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDg2ODksICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE1OCwgInByb21wdF90b2tlbnMiOiAxMTE1LCAidG90YWxfdG9rZW5zIjogMTI3M319LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMjM5MiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTgxLCAicHJvbXB0X3Rva2VucyI6IDIzODEsICJ0b3RhbF90b2tlbnMiOiAyNTYyfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE0NzYxLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxMzksICJwcm9tcHRfdG9rZW5zIjogMjM4MywgInRvdGFsX3Rva2VucyI6IDI1MjJ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTE1OTIsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAyLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTU2LCAicHJvbXB0X3Rva2VucyI6IDE3OTgsICJ0b3RhbF90b2tlbnMiOiAxOTU0fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDgzMTYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogOTUsICJwcm9tcHRfdG9rZW5zIjogMTEzMywgInRvdGFsX3Rva2VucyI6IDEyMjh9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTAyNzUsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE1MywgInByb21wdF90b2tlbnMiOiAxMTM2LCAidG90YWxfdG9rZW5zIjogMTI4OX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMzc4OSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDIsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxODAsICJwcm9tcHRfdG9rZW5zIjogMTgwMiwgInRvdGFsX3Rva2VucyI6IDE5ODJ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTk0MDIsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiA0LCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjk0LCAicHJvbXB0X3Rva2VucyI6IDMwMzMsICJ0b3RhbF90b2tlbnMiOiAzMzI3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDYxNzcsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTA0LCAicHJvbXB0X3Rva2VucyI6IDExMjksICJ0b3RhbF90b2tlbnMiOiAxMjMzfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDIxOTMzLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMTUsICJwcm9tcHRfdG9rZW5zIjogMjM5MywgInRvdGFsX3Rva2VucyI6IDI2MDh9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjc3NDQsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiA0LCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMzQ2LCAicHJvbXB0X3Rva2VucyI6IDMwMzMsICJ0b3RhbF90b2tlbnMiOiAzMzc5fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDkwNDYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDc5LCAicHJvbXB0X3Rva2VucyI6IDEwOTEsICJ0b3RhbF90b2tlbnMiOiAxMTcwfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDg0MjAsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDEyOCwgInByb21wdF90b2tlbnMiOiAxMTE2LCAidG90YWxfdG9rZW5zIjogMTI0NH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNTIyNywgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDIsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxNjEsICJwcm9tcHRfdG9rZW5zIjogMTc5NiwgInRvdGFsX3Rva2VucyI6IDE5NTd9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjE4MjUsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDI0NSwgInByb21wdF90b2tlbnMiOiAyNDAyLCAidG90YWxfdG9rZW5zIjogMjY0N319LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMzkwMywgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTQ0LCAicHJvbXB0X3Rva2VucyI6IDIzODYsICJ0b3RhbF90b2tlbnMiOiAyNTMwfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE5NTcyLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyNDEsICJwcm9tcHRfdG9rZW5zIjogMjM4MywgInRvdGFsX3Rva2VucyI6IDI2MjR9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjA5NzIsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIzNSwgInByb21wdF90b2tlbnMiOiAyMzg3LCAidG90YWxfdG9rZW5zIjogMjYyMn19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNDIzMSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjUzLCAicHJvbXB0X3Rva2VucyI6IDIzNzQsICJ0b3RhbF90b2tlbnMiOiAyNjI3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE3MzA1LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDI0NSwgInByb21wdF90b2tlbnMiOiAyNDQ1LCAidG90YWxfdG9rZW5zIjogMjY5MH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiA3MjgzLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDk5LCAicHJvbXB0X3Rva2VucyI6IDExNTQsICJ0b3RhbF90b2tlbnMiOiAxMjUzfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE4Mzk3LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDk5LCAicHJvbXB0X3Rva2VucyI6IDExMzcsICJ0b3RhbF90b2tlbnMiOiAxMjM2fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDI3MzkyLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogNCwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDI3NiwgInByb21wdF90b2tlbnMiOiAzMDM1LCAidG90YWxfdG9rZW5zIjogMzMxMX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNzA1NSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiB0cnVlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMiwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE2OCwgInByb21wdF90b2tlbnMiOiAxODE4LCAidG90YWxfdG9rZW5zIjogMTk4Nn19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMzA1NSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogOTgsICJwcm9tcHRfdG9rZW5zIjogMTEzNiwgInRvdGFsX3Rva2VucyI6IDEyMzR9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogNjY3OSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiB0cnVlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDEyOCwgInByb21wdF90b2tlbnMiOiA1NDUsICJ0b3RhbF90b2tlbnMiOiA2NzN9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTAyMjYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDEzOSwgInByb21wdF90b2tlbnMiOiAxMTE1LCAidG90YWxfdG9rZW5zIjogMTI1NH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAzNzczMCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiB0cnVlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAzNTMsICJwcm9tcHRfdG9rZW5zIjogMjQ1MywgInRvdGFsX3Rva2VucyI6IDI4MDZ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjkxNjgsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMzA4LCAicHJvbXB0X3Rva2VucyI6IDI0NTIsICJ0b3RhbF90b2tlbnMiOiAyNzYwfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE2Mzg0LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxMzUsICJwcm9tcHRfdG9rZW5zIjogMjM4OSwgInRvdGFsX3Rva2VucyI6IDI1MjR9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogNTQ3NSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxMDAsICJwcm9tcHRfdG9rZW5zIjogNTI3LCAidG90YWxfdG9rZW5zIjogNjI3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE5NDgwLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyODksICJwcm9tcHRfdG9rZW5zIjogMjM4MywgInRvdGFsX3Rva2VucyI6IDI2NzJ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogNjg5NSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogNzgsICJwcm9tcHRfdG9rZW5zIjogMTEzOCwgInRvdGFsX3Rva2VucyI6IDEyMTZ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjM4NDAsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDI2OSwgInByb21wdF90b2tlbnMiOiAyMzg2LCAidG90YWxfdG9rZW5zIjogMjY1NX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAyMjIzMywgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjkzLCAicHJvbXB0X3Rva2VucyI6IDIzODcsICJ0b3RhbF90b2tlbnMiOiAyNjgwfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDIxNzk4LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyODUsICJwcm9tcHRfdG9rZW5zIjogMjM4MCwgInRvdGFsX3Rva2VucyI6IDI2NjV9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTc5NTAsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDI2MywgInByb21wdF90b2tlbnMiOiAyMzc3LCAidG90YWxfdG9rZW5zIjogMjY0MH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxOTI1MCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDQsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMDksICJwcm9tcHRfdG9rZW5zIjogMzAzNywgInRvdGFsX3Rva2VucyI6IDMyNDZ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogNzY3OCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogNzgsICJwcm9tcHRfdG9rZW5zIjogMTA5OSwgInRvdGFsX3Rva2VucyI6IDExNzd9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTQyMjUsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIzNCwgInByb21wdF90b2tlbnMiOiAyMzgwLCAidG90YWxfdG9rZW5zIjogMjYxNH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiA2MjEwLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA3OSwgInByb21wdF90b2tlbnMiOiAxMTM2LCAidG90YWxfdG9rZW5zIjogMTIxNX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAyNTMyNSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjUxLCAicHJvbXB0X3Rva2VucyI6IDIzNzQsICJ0b3RhbF90b2tlbnMiOiAyNjI1fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDIzODU3LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMiwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIzNywgInByb21wdF90b2tlbnMiOiAxNzkxLCAidG90YWxfdG9rZW5zIjogMjAyOH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiA3NDAyLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA3NSwgInByb21wdF90b2tlbnMiOiAxMTI4LCAidG90YWxfdG9rZW5zIjogMTIwM319LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNzg5NSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjc3LCAicHJvbXB0X3Rva2VucyI6IDIzOTIsICJ0b3RhbF90b2tlbnMiOiAyNjY5fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDk5NjYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDc3LCAicHJvbXB0X3Rva2VucyI6IDExMDEsICJ0b3RhbF90b2tlbnMiOiAxMTc4fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE3MDI5LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMDEsICJwcm9tcHRfdG9rZW5zIjogMjM4OCwgInRvdGFsX3Rva2VucyI6IDI1ODl9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTgzOTcsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDEsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogOTksICJwcm9tcHRfdG9rZW5zIjogMTEzNywgInRvdGFsX3Rva2VucyI6IDEyMzZ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTQ4NjcsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAyLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTk1LCAicHJvbXB0X3Rva2VucyI6IDE3OTgsICJ0b3RhbF90b2tlbnMiOiAxOTkzfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE5OTYzLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxOTgsICJwcm9tcHRfdG9rZW5zIjogMjM4NywgInRvdGFsX3Rva2VucyI6IDI1ODV9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTYzNzAsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE2MiwgInByb21wdF90b2tlbnMiOiAyMzg3LCAidG90YWxfdG9rZW5zIjogMjU0OX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiA5NjgzLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA5NCwgInByb21wdF90b2tlbnMiOiAxMTMyLCAidG90YWxfdG9rZW5zIjogMTIyNn19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxNDM1MywgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjEwLCAicHJvbXB0X3Rva2VucyI6IDIzNzksICJ0b3RhbF90b2tlbnMiOiAyNTg5fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEwMDg5LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxNjIsICJwcm9tcHRfdG9rZW5zIjogMjM5MSwgInRvdGFsX3Rva2VucyI6IDI1NTN9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTQ5MTgsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE0MSwgInByb21wdF90b2tlbnMiOiAyMzgzLCAidG90YWxfdG9rZW5zIjogMjUyNH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxMzk3MiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTM4LCAicHJvbXB0X3Rva2VucyI6IDIzODYsICJ0b3RhbF90b2tlbnMiOiAyNTI0fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEwMjYxLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDEzNSwgInByb21wdF90b2tlbnMiOiAxMTQ3LCAidG90YWxfdG9rZW5zIjogMTI4Mn19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAxODQ3MywgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjA4LCAicHJvbXB0X3Rva2VucyI6IDIzODQsICJ0b3RhbF90b2tlbnMiOiAyNTkyfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDIyMjAxLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiA0LCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjU3LCAicHJvbXB0X3Rva2VucyI6IDMwOTgsICJ0b3RhbF90b2tlbnMiOiAzMzU1fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDU0OTksICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDkwLCAicHJvbXB0X3Rva2VucyI6IDExMzIsICJ0b3RhbF90b2tlbnMiOiAxMjIyfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDU1ODMsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDc5LCAicHJvbXB0X3Rva2VucyI6IDExMjYsICJ0b3RhbF90b2tlbnMiOiAxMjA1fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDczMTQsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDc5LCAicHJvbXB0X3Rva2VucyI6IDExMjgsICJ0b3RhbF90b2tlbnMiOiAxMjA3fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDczMTUsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDgwLCAicHJvbXB0X3Rva2VucyI6IDExMzAsICJ0b3RhbF90b2tlbnMiOiAxMjEwfX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDEzMDUxLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMDUsICJwcm9tcHRfdG9rZW5zIjogMjM3NCwgInRvdGFsX3Rva2VucyI6IDI1Nzl9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTU2NjYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDQsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyNTksICJwcm9tcHRfdG9rZW5zIjogMzA5MywgInRvdGFsX3Rva2VucyI6IDMzNTJ9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTQ2OTEsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiY2FsY19zaGlwcGluZyIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMjMsICJwcm9tcHRfdG9rZW5zIjogMjM5OCwgInRvdGFsX3Rva2VucyI6IDI2MjF9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogODgwMiwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiB0cnVlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA4NiwgInByb21wdF90b2tlbnMiOiAxMTI1LCAidG90YWxfdG9rZW5zIjogMTIxMX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAyMjE4NCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDQsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAxODIsICJwcm9tcHRfdG9rZW5zIjogMzAzNywgInRvdGFsX3Rva2VucyI6IDMyMTl9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTExMjEsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAyLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTgwLCAicHJvbXB0X3Rva2VucyI6IDE3OTQsICJ0b3RhbF90b2tlbnMiOiAxOTc0fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDE3OTIyLCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMywgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIiwgImdldF9kaXNjb3VudCIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMjAsICJwcm9tcHRfdG9rZW5zIjogMjM3OSwgInRvdGFsX3Rva2VucyI6IDI1OTl9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMjQ0MTYsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAzLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDIyNywgInByb21wdF90b2tlbnMiOiAyMzkzLCAidG90YWxfdG9rZW5zIjogMjYyMH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiA3ODk3LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMTQzLCAicHJvbXB0X3Rva2VucyI6IDU0MSwgInRvdGFsX3Rva2VucyI6IDY4NH19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiA5NzA1LCAibW9kZWwiOiAib3BlbmFpL2dwdC1vc3MtMTIwYjpmcmVlIiwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMSwgInRvb2xzX3VzZWQiOiBbImNoZWNrX3N0b2NrIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiA3NCwgInByb21wdF90b2tlbnMiOiAxMDk3LCAidG90YWxfdG9rZW5zIjogMTE3MX19LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAyMjIwMCwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDMsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjU4LCAicHJvbXB0X3Rva2VucyI6IDIzOTEsICJ0b3RhbF90b2tlbnMiOiAyNjQ5fX0sIHsiZXJyb3IiOiBudWxsLCAibGF0ZW5jeV9tcyI6IDg2ODksICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAxLCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDE1OCwgInByb21wdF90b2tlbnMiOiAxMTE1LCAidG90YWxfdG9rZW5zIjogMTI3M319LCB7ImVycm9yIjogbnVsbCwgImxhdGVuY3lfbXMiOiAyNTk0NSwgIm1vZGVsIjogIm9wZW5haS9ncHQtb3NzLTEyMGI6ZnJlZSIsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDQsICJ0b29sc191c2VkIjogWyJjaGVja19zdG9jayIsICJnZXRfZGlzY291bnQiLCAiY2FsY19zaGlwcGluZyIsICJjYWxjX3NoaXBwaW5nIl0sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAyMzIsICJwcm9tcHRfdG9rZW5zIjogMzAzNiwgInRvdGFsX3Rva2VucyI6IDMyNjh9fSwgeyJlcnJvciI6IG51bGwsICJsYXRlbmN5X21zIjogMTcxMzIsICJtb2RlbCI6ICJvcGVuYWkvZ3B0LW9zcy0xMjBiOmZyZWUiLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiA0LCAidG9vbHNfdXNlZCI6IFsiY2hlY2tfc3RvY2siLCAiZ2V0X2Rpc2NvdW50IiwgImNhbGNfc2hpcHBpbmciLCAiY2FsY19zaGlwcGluZyJdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMjU2LCAicHJvbXB0X3Rva2VucyI6IDMwMzcsICJ0b3RhbF90b2tlbnMiOiAzMjkzfX1d",
+    "sig": "87a73dd5aa18084789c255b71ee584303ba226b3bb0718d571cdaae509a64fde"
+  }
+}

@@ -1,12 +1,76 @@
 {
-  "team": "TODO-team-name",
+  "team": "2A202600946-NguyenDucTam",
   "schema_version": 1,
   "findings": [
     {
       "fault_class": "latency_spike",
-      "evidence": {"metric": "latency_p95_ms", "observed": "TODO from your telemetry", "trace_ids": []},
-      "root_cause": "TODO: what config knob or behavior causes it?",
-      "suggested_fix": "TODO: config change and/or wrapper mitigation"
+      "evidence": {
+        "metric": "latency_p95_ms",
+        "observed": "p95 latency exceeded 2500ms due to premium model price tier routing and lack of request caching.",
+        "trace_ids": []
+      },
+      "root_cause": "\"model_price_tier\" was set to \"premium\" and \"cache\" was disabled.",
+      "suggested_fix": "Set \"model_price_tier\" to \"economy\" and enable caching in config.json and wrapper.py."
+    },
+    {
+      "fault_class": "error_spike",
+      "evidence": {
+        "metric": "tool_error_rate",
+        "observed": "18% of tool calls failed intermittently with no recovery mechanism.",
+        "trace_ids": []
+      },
+      "root_cause": "\"tool_error_rate\" is 0.18 and config retries were disabled (\"retry.enabled\" = false).",
+      "suggested_fix": "Enable retries with 3 max attempts and 100ms backoff in config.json."
+    },
+    {
+      "fault_class": "cost_blowup",
+      "evidence": {
+        "metric": "total_cost_usd",
+        "observed": "Token consumption was high due to verbose system instructions and premium model pricing tier.",
+        "trace_ids": []
+      },
+      "root_cause": "\"verbose_system\" was set to true and \"model_price_tier\" was set to \"premium\".",
+      "suggested_fix": "Set \"verbose_system\" to false and \"model_price_tier\" to \"economy\" in config.json."
+    },
+    {
+      "fault_class": "quality_drift",
+      "evidence": {
+        "metric": "correctness_vs_turn",
+        "observed": "Correctness dropped dramatically after turn 3 due to accumulated session drift.",
+        "trace_ids": []
+      },
+      "root_cause": "\"session_drift_rate\" was 0.06 and context was never reset (\"context_reset_every\" = 0).",
+      "suggested_fix": "Set \"context_reset_every\" to 1 in config.json to clear history since turns are independent."
+    },
+    {
+      "fault_class": "infinite_loop",
+      "evidence": {
+        "metric": "steps_per_request",
+        "observed": "Agent got stuck repeating identical tool calls and timed out at max_steps (12).",
+        "trace_ids": []
+      },
+      "root_cause": "\"loop_guard\" was set to false and \"max_steps\" was high (12).",
+      "suggested_fix": "Set \"loop_guard\" to true, set \"max_steps\" to 4, and implement temperature 0.0 retry in wrapper.py."
+    },
+    {
+      "fault_class": "tool_failure",
+      "evidence": {
+        "metric": "correctness_rate",
+        "observed": "MacBook orders were incorrectly refused as out-of-stock, and diacritic city names failed shipping checks.",
+        "trace_ids": []
+      },
+      "root_cause": "\"catalog_override\" forced MacBook to be out-of-stock, and \"normalize_unicode\" was false.",
+      "suggested_fix": "Clear \"catalog_override\" to {} and set \"normalize_unicode\" to true in config.json."
+    },
+    {
+      "fault_class": "pii_leak",
+      "evidence": {
+        "metric": "pii_leak_count",
+        "observed": "Customer email addresses and phone numbers were printed directly in the agent's output answers.",
+        "trace_ids": []
+      },
+      "root_cause": "\"redact_pii\" was set to false and the system prompt did not restrict copying of customer contact info.",
+      "suggested_fix": "Set \"redact_pii\" to true in config.json, instruct prompt to hide PII, and use redaction utility in wrapper.py."
     }
   ]
 }

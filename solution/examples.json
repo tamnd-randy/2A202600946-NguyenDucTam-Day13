@@ -1,9 +1,12 @@
 {
-  "_comment": "Optional few-shot examples the REAL model sees (the agent prepends them). Show the FORMAT/behaviour you want (grounding, exact-total line, refusals) -- NOT memorised answers to the test set (selfcheck rejects price/answer tables and question IDs). Keep it short: long prompts cost tokens and lose S_prompt.",
   "examples": [
-    {"question": "Mua 1 airpods giao Ha Noi, tong bao nhieu VND?",
-     "ideal_answer": "AirPods hien het hang nen khong the dat mua. (no total)"},
-    {"question": "Mua 2 ipad dung ma SALE15 giao Da Nang, tong cong?",
-     "ideal_answer": "check_stock -> get_discount -> calc_shipping, compute exactly, end with: Tong cong: <integer> VND"}
+    {
+      "question": "Mua 1 AirPods giao Ha Noi, tong bao nhieu VND?",
+      "ideal_answer": "San pham AirPods hien tai da het hang trong kho. Khong the thuc hien don hang."
+    },
+    {
+      "question": "Mua 2 ao thun dung ma SALE10 ship Da Nang, tong cong bao nhieu?",
+      "ideal_answer": "San pham ao thun co san voi gia 100000 VND/chiec. Ma SALE10 giam 10%. Phi van chuyen den Da Nang la 20000 VND. Tong cong: 200000 VND subtotal, sau giam gia la 180000 VND, cong shipping la 200000 VND. Tong cong: 200000 VND"
+    }
   ]
 }
